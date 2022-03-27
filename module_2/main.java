@@ -17,18 +17,36 @@ class Main {
 Scanner input = new Scanner(System.in);
 
 // Step 1: Prompt the User to enter amount of water in kilograms(watermass)
-System.out.print("Enter kilograms to the nearest decimal: ");
+
+System.out.print("\nEnter kilograms to the nearest decimal: ");
 float kgFloat = input.nextFloat();
-System.out.println("You've Entered: " + kgFloat);
+System.out.println("\nYou've Entered: " + kgFloat);
+
 // Step 2: Prompt the User to enter initial temp. of the water
+System.out.print("Enter initial temperature to the nearest decimal in Celsius: ");
+float initialTemperature = input.nextFloat();
+System.out.println("\nYou've Entered: " + initialTemperature);
+
 
 // Step 3: Prompt the User to enter the final temp. of the water
+System.out.print("Enter final temperature to the nearest decimal in Celsius: ");
+float finalTemperature = input.nextFloat();
+System.out.println("\nYou've Entered: " + finalTemperature);
 
 // Step 4: Calculate 
 // Q = watermass(kg) ( finalTemperature - initialTemperature ) * 4184
 
-// Step 5: Give the output of the calculation 
+float temperature = finalTemperature - initialTemperature;
+System.out.println("\nTemperature: " + temperature);
 
+// Step 5: Give the output of the calculation 
+System.out.print("\nEnter final temperature to the nearest decimal in Celsius: \n");
+System.out.print("Enter final temperature to the nearest decimal in Celsius: \n");
+System.out.print("Enter final temperature to the nearest decimal in Celsius: \n");
+System.out.print("Enter final temperature to the nearest decimal in Celsius: \n");
+System.out.print("Enter final temperature to the nearest decimal in Celsius: \n");
+System.out.print("Enter final temperature to the nearest decimal in Celsius: \n");
+System.out.print("Enter final temperature to the nearest decimal in Celsius: \n");
 // Step 6: Exit the program
 // Step #: Close the input
 input.close();
