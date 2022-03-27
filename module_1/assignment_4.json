@@ -1,0 +1,35 @@
+
+
+
+
+{
+    "first_name": "Jeffrey",
+    "last_name": "Martinez",
+    "Roles": [
+        {
+            "type": "Mechanic",
+            "chore": "Fix Cars"
+        },
+        {
+            "type": "Household",
+            "chore": "Sweeping and Mopping"
+        }
+    ],
+    "Birthdate": [
+        {
+            "month": "May",
+            "day": "16",
+            "year": "1998"
+        }
+    ],
+    "Dependents": [
+        {
+            "first_name": "John",
+            "last_name": "Martinez"
+        },
+        {
+            "first_name": "Angela",
+            "last_name": "Martinez"
+        }
+    ]
+}

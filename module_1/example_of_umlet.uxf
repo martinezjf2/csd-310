@@ -1,0 +1,12 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>80</x><y>250</y><w>210</w><h>70</h></coordinates><panel_attributes>User
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>490</y><w>210</w><h>70</h></coordinates><panel_attributes>User
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>250</y><w>210</w><h>70</h></coordinates><panel_attributes>Roles
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>490</y><w>210</w><h>70</h></coordinates><panel_attributes>Birthdate
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>770</y><w>210</w><h>70</h></coordinates><panel_attributes>User
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>770</y><w>210</w><h>70</h></coordinates><panel_attributes>Dependents
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>270</y><w>120</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;100;20</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>510</y><w>110</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>790</y><w>110</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element></diagram>
