@@ -2,5 +2,9 @@
     "java.project.sourcePaths": [
         "module_3",
         "module_4"
+    ],
+    "cSpell.words": [
+        "pymongo",
+        "pytech"
     ]
 }
