@@ -4,8 +4,17 @@
         "module_4"
     ],
     "cSpell.words": [
+        "myquery",
         "pymongo",
         "pytech",
         "Thorin"
-    ]
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:csd-310}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
 }
