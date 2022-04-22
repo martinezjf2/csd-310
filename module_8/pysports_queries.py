@@ -122,4 +122,5 @@ for player in players:
 # Delete Team and Player Tables Resource: https://www.w3schools.com/python/python_mysql_drop_table.asp
 cursor.execute("DROP TABLE IF EXISTS player")
 cursor.execute("DROP TABLE IF EXISTS team")
-print("Both Tables have been successfully dropped!\n")
+input("\nPress any key to continue...\n\n")
+print("Both Tables have been successfully dropped!\n\n\n")
