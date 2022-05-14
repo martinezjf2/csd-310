@@ -146,11 +146,17 @@ def show_books_to_add(_cursor, _user_id):
     
     
 def check_book_id(_cursor, _user_id):
-    book = int(input("\nEnter the id of the book you want to add: "))
+    book = input("\nEnter the id of the book you want to add OR TYPE exit to leave the program: ")
+    if str(book) == 'exit' or str(book) == 'Exit':
+        cprint("\n\nThank You for joining WhatABook. Have a nice day!\n\n", "green")
+        sys.exit(0)
+
+    book_number = int(float(book))
+
     
     _cursor.execute("SELECT book_id, book_name, author, details "
             "FROM book "
-            "WHERE book_id NOT IN (SELECT book_id FROM wishlist WHERE user_id = {}) AND book_id = {}".format(_user_id, book))
+            "WHERE book_id NOT IN (SELECT book_id FROM wishlist WHERE user_id = {}) AND book_id = {}".format(_user_id, book_number))
     data = _cursor.fetchall()
     
   
@@ -158,7 +164,7 @@ def check_book_id(_cursor, _user_id):
         cprint("\n\nBOOK ID NOT FOUND IN THE DATABASE", "red")
         check_book_id(_cursor, _user_id)
     else:
-        return book
+        return book_number
    
        
     
